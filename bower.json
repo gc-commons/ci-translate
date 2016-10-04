@@ -1,0 +1,31 @@
+{
+  "name": "ci-translate",
+  "version": "0.3.26",
+  "description": "Common custom translate service used among different CI apps",
+  "main": "src/translate.service.js",
+  "authors": [
+    "Pablo Petran <pablo.petran@cityindex.com>",
+    "Nestor Britez <nestor.britez@cityindex.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.28",
+    "angular-cookies": "~1.2.28",
+    "angular-mocks": "~1.2.28",
+    "lodash": "~3.10.0",
+    "angular-translate": "~2.7.2",
+    "angular-translate-loader-url": "~2.7.2",
+    "angular-translate-handler-log": "2.7.2",
+    "angular-dynamic-locale": "~0.1.27",
+    "angular-i18n": "~1.4.2",
+    "ci-http": "git@github.com:pablonp/ci-http.git#~0.2.0",
+    "ci-call2api": "git@github.com:pablonp/ci-call2api.git#~0.2.0"
+  }
+}

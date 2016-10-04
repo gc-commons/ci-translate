@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html data-ng-app="DemoApp" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+</head>
+<body data-ng-controller="DemoCtrl">
+
+  <section>
+    <h1>Configuration</h1>
+    <p>
+      This services works with:
+      <ul>
+        <li>Unique file with all translation. @see demo/translations.json</li>
+        <li>Each time the language is changes the <strong>translateSrv::ready</strong> event is fired providing getCurrentLang() object</li>
+        <li>For images: You can replace your images when you switch the language providing the code part to ng-src attribute in your views. @see <strong>getCurrentLang().code</strong></li>
+      </ul>
+      See <code>demo/app.js</code> and <code>demo/index.html</code> for examples.
+    </p>
+  </section>
+
+  <section>
+    <h1>Usage</h1>
+    <p>
+      Use the <code>translate</code> directive into any HTML tag: <br/><br/>
+      <code>
+        &lt;h1 translate=&quot;HEADLINE_TEXT&quot;&gt;&lt;/h1&gt; <br/>
+      </code>
+    </p>
+  </section>
+
+  <script src="../bower_components/angular/angular.js"></script>
+  <script src="../bower_components/angular-translate/angular-translate.js"></script>
+  <script src="../bower_components/angular-translate-handler-log/angular-translate-handler-log.js"></script>
+  <script src="../bower_components/angular-translate-loader-url/angular-translate-loader-url.js"></script>
+  <script src="../bower_components/lodash/lodash.js"></script>
+  <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="../bower_components/ci-utils/src/utils.service.js"></script>
+  <script src="../bower_components/ci-http/src/http.service.js"></script>
+  <script src="../src/translate.service.js"></script>
+  <script src="../src/translate.directive.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
