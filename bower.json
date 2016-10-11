@@ -25,7 +25,7 @@
     "angular-translate-handler-log": "2.7.2",
     "angular-dynamic-locale": "~0.1.27",
     "angular-i18n": "~1.4.2",
-    "ci-http": "git@github.com:pablonp/ci-http.git#~0.2.0",
-    "ci-call2api": "git@github.com:pablonp/ci-call2api.git#~0.2.0"
+    "ci-http": "https://github.com/pablonp/ci-http.git",
+    "ci-call2api": "https://github.com/pablonp/ci-call2api.git"
   }
 }
