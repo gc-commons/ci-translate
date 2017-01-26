@@ -67,7 +67,7 @@
               // IFE structure: TranslationKeyValuePairs
               // TODO: improve this setting up in options to make it generic
               else if (data.hasOwnProperty('TranslationKeyValuePairs')) {
-                var keys = data.TranslationKeyValuePairs[options.key],
+                var keys = data.TranslationKeyValuePairs,
                   len = keys.length,
                   map = {};
                 // Fastest loop
