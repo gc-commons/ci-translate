@@ -1,6 +1,6 @@
 {
   "name": "ci-translate",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Common custom translate service used among different CI apps",
   "main": "src/translate.service.js",
   "authors": [
@@ -25,7 +25,7 @@
     "angular-translate-handler-log": "2.7.2",
     "angular-dynamic-locale": "~0.1.27",
     "angular-i18n": "~1.4.2",
-    "ci-http": "https://github.com/pablonp/ci-http.git",
-    "ci-call2api": "https://github.com/pablonp/ci-call2api.git"
+    "ci-http": "https://github.com/adiaz-ci/ci-http.git",
+    "ci-call2api": "https://github.com/adiaz-ci/ci-call2api.git"
   }
 }
