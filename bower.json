@@ -1,11 +1,11 @@
 {
   "name": "ci-translate",
-  "version": "0.3.27",
+  "version": "0.3.28",
   "description": "Common custom translate service used among different CI apps",
   "main": "src/translate.service.js",
   "authors": [
-    "Pablo Petran <pablo.petran@cityindex.com>",
-    "Nestor Britez <nestor.britez@cityindex.com>"
+    "Agustin Diaz <agustin.diaz@globallogic.com>",
+    "Pablo Petran <pablo.petran@cityindex.com>"
   ],
   "license": "MIT",
   "ignore": [
