@@ -1,6 +1,6 @@
 {
   "name": "ci-translate",
-  "version": "0.3.28",
+  "version": "0.2.1",
   "description": "Common custom translate service used among different CI apps",
   "main": "src/translate.service.js",
   "authors": [
